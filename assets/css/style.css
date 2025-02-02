@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("/portfolio-project/assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("/portfolio-project/assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("/portfolio-project/assets/fonts/Roboto-Thin.ttf");
+}
+
+:root {
+    --main-color: #3498DB;
+    --secondary-color: #1ABC9C;
+    --base-color: #F0F0F0;
+    --text-color-dark: #2C3E50;
+    --text-color-light: #F6F6F6;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
