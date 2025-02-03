@@ -169,31 +169,14 @@ h2 {
     margin-left: 1em;
 }
 .website-top-container > p {
-    margin: 0 0.75em 0 auto;
+    margin: 0 2em 0 auto;
 }
-.website-top-container > button {
-    width: 1em;
-    height: 1em;
-    margin-right: 3em;
-    clip-path: polygon(50% 100%, 0 0, 100% 0);
-}
-
-/* .hidden {
-    display: none;
-} */
-.hidden {
-    height: 0px;
-    overflow: hidden;
-}
-/* .no-height-amimation {
-    height: 0px;
-} */
 .website-bottom-container {
     display: flex;
 }
-/* .no-visibility {
-    visibility: hidden;
-} */
+.hidden {
+    display: none;
+}
 .website-bottom-content {
     display: flex;
     flex-direction: column;
@@ -228,9 +211,6 @@ h2 {
     color: var(--main-color);
     transition: all 0.25s linear;
 }
-/* .no-visibility-images {
-    visibility: hidden;
-} */
 .website-bottom-content-image figure {
     display: flex;
     flex-direction: column;
