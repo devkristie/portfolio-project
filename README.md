@@ -34,7 +34,7 @@ With a focus on clean design, responsiveness, accessibility, and interactivity, 
 
 ## Future Updates:
 
-This portfolio is an ongoing project, and I continue to update it with new work as I progress in my learning journey.
+This portfolio is an ongoing project, and I continue to update it with new work as I progress in my learning journey. **Please note that the projects that are on the portfolio are not real, I have made up the websites to add to the portfolio.**
 
 ## License:
 
