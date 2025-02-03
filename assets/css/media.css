@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1240px) {
+    .landing-page-section {
+        flex-direction: column;
+    }
+    .landing-page-section header {
+        width: 75%;
+        text-align: center;
+        padding-right: 2em;
+    }
+    .landing-page-section header p {
+        margin: auto;
+        padding-bottom: 4em;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .website-bottom-container {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .website-bottom-content {
+        margin: 0;
+    }
+    .website-bottom-content-image figure {
+        margin: auto;
+    }
+    .website-bottom-content-image figcaption {
+        padding-bottom: 1em;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-container article {
+        text-align: center;
+    }
+}
+
+/*Tablet Media Queries*/
+
+@media only screen and (max-width: 600px) {
+    .top-navigation-container nav ul:nth-child(2) {
+        flex-direction: column;
+        margin: 0;
+    }
+    .top-navigation-container nav ul:nth-child(2) li {
+        padding: 0.5em 3em 0.5em 0;
+    }
+    .landing-page-section {
+        padding-top: 13em;
+    }
+    .landing-page-section h1 {
+        font-size: 2em
+    }
+    .headshot-image {
+        max-width: 50%;   
+    }
+    .website-top-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .website-top-container h3 {
+        margin: 1em auto;
+    }
+    .website-top-container > p {
+        margin: 1em auto;
+    }
+    .website-bottom-content a {
+        margin: 2em auto 3em;
+    }
+}
+
+/*Mobile Media Queries*/
+
+@media only screen and (max-width: 465px) {
+    .skills-section ul {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .website-bottom-content-image figure img {
+        width: 15em;
+        height: 15em;
+    }
+    .footer-container nav {
+        flex-direction: column;
+    }
+    .footer-container nav ul {
+        padding: 0;
+    }
+}

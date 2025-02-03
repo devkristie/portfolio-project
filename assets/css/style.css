@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("/portfolio-project/assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("/portfolio-project/assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("/portfolio-project/assets/fonts/Roboto-Thin.ttf");
+}
+
+:root {
+    --main-color: #3498DB;
+    --secondary-color: #1ABC9C;
+    --base-color: #F0F0F0;
+    --text-color-dark: #2C3E50;
+    --text-color-light: #F6F6F6;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Regular", sans-serif;
+    background-color: var(--base-color);
+}
+
+.top-navigation-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    font-family: "Roboto-Bold", sans-serif;
+    z-index: 1;
+}
+.top-navigation-container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-navigation-container nav ul {
+    list-style-type: none;
+}
+.top-navigation-container nav ul:first-child {
+    font-size: 1.5em;
+    margin: 0;
+}
+.top-navigation-container nav ul:nth-child(2) {
+    display: flex;
+}
+.top-navigation-container nav ul:nth-child(2) li {
+    padding: 0 2em;
+}
+.top-navigation-container nav ul:first-child li a {
+    color: var(--text-color-dark);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    background-color: var(--base-color);
+    padding: 0.25em;
+    border: 1px solid var(--text-color-dark);
+}
+.top-navigation-container nav ul:first-child li a:hover {
+    background-color: var(--text-color-dark);
+    color: var(--text-color-light);
+    transition: all 0.25s linear;
+}
+.top-navigation-container nav ul:nth-child(2) li a {
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
+.top-navigation-container nav ul:nth-child(2) li a:hover {
+    color: var(--text-color-light);
+    text-decoration: underline;
+    transition: color 0.25s linear;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.landing-page-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 9em 0 3em;
+}
+.landing-page-section header {
+    padding-left: 2em;
+    width: 50%;
+}
+.landing-page-section h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: "Roboto-Bold", sans-serif;
+}
+.landing-page-section h1 span {
+    color: var(--secondary-color);
+}
+.landing-page-section h2 {
+    margin: 2em 0 0.5em;
+}
+.landing-page-section header p {
+    margin: 0;
+    width: 75%;
+}
+.headshot-image {
+    max-width: 30%;
+    height: auto;
+    border: 5px solid var(--text-color-dark);
+    border-radius: 50%;
+}
+
+.skills-section {
+    background-color: var(--secondary-color);
+    color: var(--text-color-light);
+}
+.skills-section h2 {
+    padding-top: 1em;
+    text-align: center;
+}
+.skills-section ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 2em;
+    font-size: 1rem;
+}
+.skills-section ul li {
+    margin: 0.5em 2em;
+    padding: 0 0 1em;
+    list-style-type: none;
+}
+.skills-section ul li i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.portfolio-section {
+    padding: 4em 0;
+}
+.portfolio-section h2,
+.portfolio-section > p {
+    width: 75%;
+    margin: 0 auto 1em;
+    text-align: center;
+}
+.portfolio-section article {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 3em auto;
+    background-color: var(--text-color-dark);
+}
+.website-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color-light);
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+.website-top-container h3 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+.website-top-container > p {
+    margin: 0 2em 0 auto;
+}
+.website-bottom-container {
+    display: flex;
+}
+.hidden {
+    display: none;
+}
+.website-bottom-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    margin-left: 5em;
+    color: var(--text-color-light);
+}
+.website-bottom-content p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.website-bottom-content p span {
+    padding-top: 0.5em;
+}
+.website-bottom-content a {
+    width: 7em;
+    margin: 0.5em auto 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #1ABC9C;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 1em;
+    color: var(--text-color-dark);
+    border: 2px solid var(--base-color);
+    transition: background-color 0.5s linear;
+    text-align: center;
+}
+.website-bottom-content a:hover {
+    background-color: var(--base-color);
+    color: var(--main-color);
+    transition: all 0.25s linear;
+}
+.website-bottom-content-image figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5em;
+}
+.website-bottom-content-image figure img {
+    width: 20em;
+    height: 20em;
+}
+.website-bottom-content-image figcaption {
+    padding-top: 1em;
+    width: 75%;
+    text-align: center;
+    color: var(--text-color-light);
+}
+.website-bottom-content-image figcaption a {
+    color: var(--secondary-color);
+    font-family: "Roboto-Bold", sans-serif;
+    text-decoration: none;
+}
+.website-bottom-content-image figcaption a:hover {
+    text-decoration: underline;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    background-color: var(--main-color);
+}
+.footer-container nav {
+    display: flex;
+    align-items: center;
+}
+.footer-container nav ul {
+    list-style-type: none;
+}
+.footer-container nav ul li a {
+    text-decoration: none;
+    color: var(--text-color-dark);
+    transition: color 0.25s linear;
+}
+.footer-container nav ul li a:hover {
+    color: var(--text-color-light);
+}
+.footer-container nav ul li i{
+    font-size: 1.75em;
+}
+.footer-container article {
+    font-family: "Roboto-Thin", sans-serif;
+    font-weight: 600;
+}
